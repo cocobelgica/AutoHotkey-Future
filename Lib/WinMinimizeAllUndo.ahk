@@ -1,0 +1,4 @@
+WinMinimizeAllUndo()
+{
+    WinMinimizeAllUndo
+}

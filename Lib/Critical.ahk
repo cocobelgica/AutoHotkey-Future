@@ -1,0 +1,4 @@
+Critical(Param)
+{
+    Critical %Param%
+}

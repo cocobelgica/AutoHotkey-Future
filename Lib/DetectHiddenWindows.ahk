@@ -1,0 +1,4 @@
+DetectHiddenWindows(OnOrOff)
+{
+    DetectHiddenWindows %OnOrOff%
+}

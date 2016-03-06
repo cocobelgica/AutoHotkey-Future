@@ -1,0 +1,4 @@
+SetWinDelay(Delay)
+{
+    SetWinDelay %Delay%
+}

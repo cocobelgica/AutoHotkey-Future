@@ -1,0 +1,4 @@
+BlockInput(Mode)
+{
+    BlockInput %Mode%
+}

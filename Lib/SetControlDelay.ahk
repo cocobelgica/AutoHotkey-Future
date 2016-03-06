@@ -1,0 +1,4 @@
+SetControlDelay(Delay)
+{
+    SetControlDelay %Delay%
+}

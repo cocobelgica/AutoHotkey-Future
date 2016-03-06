@@ -1,0 +1,4 @@
+SendEvent(Keys)
+{
+    SendEvent %keys%
+}

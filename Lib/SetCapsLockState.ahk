@@ -1,0 +1,4 @@
+SetCapsLockState(State:="")
+{
+    SetCapsLockState %State%
+}

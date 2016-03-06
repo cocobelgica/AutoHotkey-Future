@@ -1,0 +1,4 @@
+Sleep(DelayInMilliseconds)
+{
+    Sleep %DelayInMilliseconds%
+}

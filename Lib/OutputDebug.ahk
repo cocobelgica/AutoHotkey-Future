@@ -1,0 +1,4 @@
+OutputDebug(Text)
+{
+    OutputDebug %Text%
+}

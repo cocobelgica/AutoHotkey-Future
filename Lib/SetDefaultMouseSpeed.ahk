@@ -1,0 +1,4 @@
+SetDefaultMouseSpeed(Speed)
+{
+    SetDefaultMouseSpeed %Speed%
+}

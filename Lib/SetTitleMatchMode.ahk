@@ -1,0 +1,4 @@
+SetTitleMatchMode(MatchModeOrSpeed)
+{
+    SetTitleMatchMode %MatchModeOrSpeed%
+}

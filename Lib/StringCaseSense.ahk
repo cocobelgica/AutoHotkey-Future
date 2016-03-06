@@ -1,0 +1,4 @@
+StringCaseSense(OnOffLocale)
+{
+    StringCaseSense %OnOffLocale%
+}

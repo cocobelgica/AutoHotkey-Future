@@ -1,0 +1,4 @@
+Shutdown(Code)
+{
+    Shutdown %Code%
+}

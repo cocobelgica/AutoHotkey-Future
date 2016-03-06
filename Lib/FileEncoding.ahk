@@ -1,0 +1,4 @@
+FileEncoding(Encoding:="")
+{
+    FileEncoding %Encoding%
+}

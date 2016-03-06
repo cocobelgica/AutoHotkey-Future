@@ -1,0 +1,4 @@
+SendRaw(Keys)
+{
+    SendRaw %Keys%
+}

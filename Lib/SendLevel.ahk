@@ -1,0 +1,4 @@
+SendLevel(Level)
+{
+    SendLevel %Level%
+}

@@ -1,0 +1,4 @@
+Send(Keys)
+{
+    Send %Keys%
+}

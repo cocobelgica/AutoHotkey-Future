@@ -1,0 +1,4 @@
+SetStoreCapslockMode(OnOrOff)
+{
+    SetStoreCapslockMode %OnOrOff%
+}

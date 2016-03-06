@@ -1,0 +1,4 @@
+DetectHiddenText(OnOrOff)
+{
+    DetectHiddenText %OnOrOff%
+}

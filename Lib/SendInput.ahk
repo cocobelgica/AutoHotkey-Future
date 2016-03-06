@@ -1,0 +1,4 @@
+SendInput(Keys)
+{
+    SendInput %Keys%
+}

@@ -1,0 +1,4 @@
+SendPlay(Keys)
+{
+    SendPlay %Keys%
+}

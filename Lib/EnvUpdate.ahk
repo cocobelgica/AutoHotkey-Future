@@ -1,0 +1,5 @@
+EnvUpdate()
+{
+    EnvUpdate
+    return !ErrorLevel
+}

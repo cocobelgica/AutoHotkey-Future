@@ -1,0 +1,4 @@
+SetScrollLockState(State:="")
+{
+    SetScrollLockState %State%
+}

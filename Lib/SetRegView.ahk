@@ -1,0 +1,4 @@
+SetRegView(RegView)
+{
+    SetRegView %RegView%
+}

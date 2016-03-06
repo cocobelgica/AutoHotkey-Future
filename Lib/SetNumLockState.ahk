@@ -1,0 +1,4 @@
+SetNumLockState(State:="")
+{
+    SetNumLockState %State%
+}

@@ -1,0 +1,4 @@
+SendMode(Mode)
+{
+    SendMode %Mode%
+}
