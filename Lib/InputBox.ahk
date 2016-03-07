@@ -1,12 +1,15 @@
 InputBox(Title:="", Prompt:="", Options:="", Default:="")
 {
-    local X, Y, W, H, T, HIDE
+    local X, Y, W, H, T, HIDE, xywht
     Loop Parse, % Options, % " `t"
     {
-        if InStr("XYWHT", option := SubStr(A_LoopField, 1, 1))
-            %option% := SubStr(A_LoopField, 2)
-        else if (InStr(A_LoopField, "Password") == 1) ; Password* not supported
-            HIDE := "HIDE"
+        if (A_LoopField != "")
+        {
+            if InStr("XYWHT", xywht := SubStr(A_LoopField, 1, 1))
+                %xywht% := SubStr(A_LoopField, 2)
+            else if (InStr(A_LoopField, "Password") == 1) ; Password* not supported
+                HIDE := "HIDE"
+        }
     }
     
     local OutputVar
