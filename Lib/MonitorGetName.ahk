@@ -1,6 +1,6 @@
 MonitorGetName(N:="")
 {
-	local OutputVar
+    local OutputVar
     SysGet OutputVar, MonitorName
     return OutputVar
 }

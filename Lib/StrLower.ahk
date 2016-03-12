@@ -1,6 +1,6 @@
 StrLower(String, T:="")
 {
-	local OutputVar
+    local OutputVar
     StringLower OutputVar, %String%, %T%
     return OutputVar
 }

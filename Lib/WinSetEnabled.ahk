@@ -1,6 +1,6 @@
 WinSetEnabled(Value:="Toggle", WinTitle:="", WinText:="", ExcludeTitle:="", ExcludeText:="")
 {
-	local Style
+    local Style
     if (Value = "Toggle")
     {
         WinGet Style, Style, %WinTitle%, %WinText%, %ExcludeTitle%, %ExcludeText%

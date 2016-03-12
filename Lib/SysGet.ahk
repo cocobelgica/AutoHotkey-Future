@@ -1,6 +1,6 @@
 SysGet(SubCommand)
 {
-	local OutputVar
+    local OutputVar
     SysGet OutputVar, %SubCommand%
     return OutputVar
 }

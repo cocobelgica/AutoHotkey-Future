@@ -1,6 +1,6 @@
 DriveGet(Cmd, Value:="")
 {
-	local OutputVar
+    local OutputVar
     if (Cmd != "SpaceFree")
         DriveGet OutputVar, %Cmd%, %Value%
     else

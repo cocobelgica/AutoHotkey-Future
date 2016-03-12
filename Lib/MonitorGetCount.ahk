@@ -1,6 +1,6 @@
 MonitorGetCount()
 {
-	local OutputVar
+    local OutputVar
     SysGet OutputVar, MonitorCount
     return OutputVar
 }

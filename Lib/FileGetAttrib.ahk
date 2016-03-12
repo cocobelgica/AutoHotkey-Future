@@ -1,6 +1,6 @@
 FileGetAttrib(Filename:="")
 {
-	local OutputVar
+    local OutputVar
     FileGetAttrib OutputVar, %Filename%
     if !ErrorLevel
         return OutputVar

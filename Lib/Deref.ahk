@@ -1,6 +1,6 @@
 Deref(String)
 {
-	local OutputVar
+    local OutputVar
     Transform OutputVar, Deref, %String%
     return OutputVar
 }

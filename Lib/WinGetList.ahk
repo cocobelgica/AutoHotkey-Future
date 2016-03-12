@@ -1,6 +1,6 @@
 WinGetList(WinTitle:="", WinText:="", ExcludeTitle:="", ExcludeText:="")
 {
-	local OutputVar, List
+    local OutputVar, List
     WinGet OutputVar, List, %WinTitle%, %WinText%, %ExcludeTitle%, %ExcludeText%
     List := []
     Loop % OutputVar

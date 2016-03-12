@@ -1,6 +1,6 @@
 WinGetTransparent(WinTitle:="", WinText:="", ExcludeTitle:="", ExcludeText:="")
 {
-	local OutputVar
+    local OutputVar
     WinGet OutputVar, Transparent, %WinTitle%, %WinText%, %ExcludeTitle%, %ExcludeText%
     return OutputVar
 }

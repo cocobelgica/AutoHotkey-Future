@@ -1,6 +1,6 @@
 FileGetSize(Filename:="", Units:="")
 {
-	local OutputVar
+    local OutputVar
     FileGetSize OutputVar, %Filename%, %Units%
     if !ErrorLevel
         return OutputVar

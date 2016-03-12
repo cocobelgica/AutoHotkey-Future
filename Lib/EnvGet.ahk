@@ -1,6 +1,6 @@
 EnvGet(EnvVarName)
 {
-	local OutputVar
+    local OutputVar
     EnvGet OutputVar, %EnvVarName%
     return OutputVar
 }

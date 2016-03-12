@@ -1,6 +1,6 @@
 MsgBox(Params*)
 {
-	local Len
+    local Len
     if (Len := Params.Length())
     {
         if (Len == 1)

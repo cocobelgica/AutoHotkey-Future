@@ -1,6 +1,6 @@
 FileGetVersion(Filename:="")
 {
-	local OutputVar
+    local OutputVar
     FileGetVersion OutputVar, %Filename%
     if !ErrorLevel
         return OutputVar

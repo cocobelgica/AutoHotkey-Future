@@ -1,6 +1,6 @@
 WinGetProcessName(WinTitle:="", WinText:="", ExcludeTitle:="", ExcludeText:="")
 {
-	local OutputVar
+    local OutputVar
     WinGet OutputVar, ProcessName, %WinTitle%, %WinText%, %ExcludeTitle%, %ExcludeText%
     return OutputVar
 }

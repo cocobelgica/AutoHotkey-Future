@@ -1,6 +1,6 @@
 StrUpper(String, T:="")
 {
-	local OutputVar
+    local OutputVar
     StringUpper OutputVar, %String%, %T%
     return OutputVar
 }

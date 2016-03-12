@@ -1,6 +1,6 @@
 GuiControl(SubCommand:="", ControlID:="", Param3:="")
 {
-	global
+    global
     GuiControl %SubCommand%, %ControlID%, %Param3%
     return !ErrorLevel
 }

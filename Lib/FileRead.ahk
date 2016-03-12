@@ -1,7 +1,7 @@
 FileRead(Filename)
 {
-	local OutputVar
+    local OutputVar
     FileRead OutputVar, %Filename%
     if !ErrorLevel
-    	return OutputVar
+        return OutputVar
 }

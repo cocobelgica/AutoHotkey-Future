@@ -1,6 +1,6 @@
 Random(Min:="", Max:="")
 {
-	local OutputVar
+    local OutputVar
     Random OutputVar, %Min%, %Max%
     return OutputVar
 }
