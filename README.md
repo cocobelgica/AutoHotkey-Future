@@ -18,7 +18,7 @@ Copy the entire contents of Lib into a [function library folder](https://autohot
   * `FileInstall()` will only perform a `FileCopy`.
   * `Gui("Add", ...)` - the control's associated variable must be global. Declaring as static is currently impossible.
   * `GuiControl()` and `GuiControlGet()` can only operate on global variables(control's associated variable). Use `ControlHwnd` or `ClassNN` instead if needed.
-  * Fix `WinSetXXX()` return values. In `v2.0-a`, `ErrorLevel` is returned. However, most of `WinSet` sub-commands in `v1.1` do not use `ErrorLevel`. Perhaps `ErrorLevel` can be determined using `A_LastError`.
+  * ~~Fix `WinSetXXX()` return values. In `v2.0-a`, `ErrorLevel` is returned. However, most of `WinSet` sub-commands in `v1.1` do not use `ErrorLevel`. Perhaps `ErrorLevel` can be determined using `A_LastError`.~~
   * In v2, `Func("MenuSelect").MinParams` returns `0`. However when called using command syntax, an error is thrown when a required parameter is omitted. There are probably other commands/functions that behave like this. Best to check using `Func` object properties.
   * `Random()` limitation -> how to mimic `Random,, NewSeed`?
   * This is just a rush job, perform proper tests.
