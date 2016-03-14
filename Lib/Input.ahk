@@ -1,14 +1,6 @@
-Input(Params*)
+Input(Options:="", EndKeys:="", MatchList:="")
 {
     local OutputVar
-    if (Params.Length())
-    {
-        Input OutputVar, % Params[1], % Params[2], % Params[3]
-        return OutputVar
-    }
-    else
-    {
-        Input
-        return !ErrorLevel
-    }
+    Input OutputVar, %Options%, %EndKeys%, %MatchList%
+    return OutputVar
 }
