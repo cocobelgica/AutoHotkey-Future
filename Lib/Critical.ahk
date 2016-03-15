@@ -1,4 +1,4 @@
-Critical(Param)
+Critical(Param:="")
 {
     Critical %Param%
 }

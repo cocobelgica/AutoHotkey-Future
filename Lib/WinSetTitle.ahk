@@ -1,4 +1,4 @@
-WinSetTitle(Param, Params*)
+WinSetTitle(Param:="", Params*)
 {
     local WinTitle, WinText, NewTitle, ExcludeTitle, ExcludeText
     if (Params.Length())
